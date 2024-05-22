@@ -15,9 +15,9 @@ const treasureList = [
   { name: "Idol (Gold)", count: 112, where: "4-1-3" },
   { name: "Ceremonial Mask", count: 22, where: "3-1-2" },
 
-  { name: "Beetle (Gold)", count: 316, where: "4-2-2" },
+  { name: "Beetle (Brown)", count: 316, where: "3-1-1" },
   { name: "Jewel Beetle", count: 180, where: "3-2-1" },
-  { name: "Beetle (Brown)", count: 101, where: "3-1-1" },
+  { name: "Beetle (Gold)", count: 101, where: "4-2-2" },
   { name: "Topaz (Pear)", count: 221, where: "4-2-1" },
   { name: "Ruby (Pear)", count: 652, where: "2-2-1" },
   { name: "Sapphire (Pear)", count: 323, where: "2-1-1" },
