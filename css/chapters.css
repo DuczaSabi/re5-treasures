@@ -1,0 +1,62 @@
+#chapters {
+  margin: auto;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 15%;
+  text-align: center;
+}
+
+#chapters div {
+  border-radius: 20px;
+  padding-top: 10px;
+  margin: 20px 0;
+}
+
+#chapters hr {
+  border-color: rgba(0, 0, 0, 0.481);
+}
+
+#chapters h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#chapters h3 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 5px;
+}
+
+#chapters p {
+  font-size: 36px;
+  padding: 10px;
+  margin: 0;
+  border-radius: 20px;
+}
+
+#chapters p:nth-of-type(even) {
+  background-color: rgba(0, 0, 0, 0.165);
+}
+
+#chapters p:hover {
+  cursor: pointer;
+  border-radius: 100px;
+  transition: ease-in-out 0.15s;
+}
+
+#pending {
+  background-color: bisque;
+}
+
+#pending p:hover {
+  background-color: rgb(255, 209, 153);
+}
+
+#completed {
+  background-color: rgb(199, 199, 199);
+}
+
+#completed p:hover {
+  background-color: rgb(164, 164, 164);
+}
